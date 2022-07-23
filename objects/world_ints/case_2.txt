@@ -1,0 +1,15 @@
+006_mustard_bottle.urdf
+029_plate.urdf
+051_large_clamp.urdf
+010_potted_meat_can.urdf
+040_large_marker.urdf
+029_plate.urdf
+006_mustard_bottle.urdf
+040_large_marker.urdf
+040_large_marker.urdf
+005_tomato_soup_can.urdf
+010_potted_meat_can.urdf
+005_tomato_soup_can.urdf
+040_large_marker.urdf
+008_pudding_box.urdf
+005_tomato_soup_can.urdf
