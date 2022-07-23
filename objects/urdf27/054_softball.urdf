@@ -1,0 +1,30 @@
+<robot name="054_softball.urdf">
+  <link name="baseLink">
+    <contact>
+      <friction_anchor />
+      <lateral_friction value="0.8" />
+      <rolling_friction value="0.001" />
+      <spinning_friction value="0.001" />
+      <contact_cfm value="0.0" />
+      <contact_erp value="1.0" />
+    </contact>
+    <inertial>
+       <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+       <mass value="0.191" />
+       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="054_softball/google_16k/textured.obj" scale="1 1 1" />
+      </geometry>
+      <material name="texture">
+        <color rgba="1. 1. 1. 1." />
+      </material>
+    <origin rpy="0 0 0" xyz="0.019666593478340936 -0.010880937293586683 -0.046775606884840545" /></visual>
+    <collision>
+      <geometry>
+        <mesh filename="054_softball/google_16k/textured_vhacd.obj" scale="1 1 1" />
+      </geometry>
+    <origin rpy="0 0 0" xyz="0.019666593478340936 -0.010880937293586683 -0.046775606884840545" /></collision>
+  </link>
+</robot>

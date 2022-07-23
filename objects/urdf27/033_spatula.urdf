@@ -1,0 +1,30 @@
+<robot name="033_spatula.urdf">
+  <link name="baseLink">
+    <contact>
+      <friction_anchor />
+      <lateral_friction value="0.8" />
+      <rolling_friction value="0.001" />
+      <spinning_friction value="0.001" />
+      <contact_cfm value="0.0" />
+      <contact_erp value="1.0" />
+    </contact>
+    <inertial>
+       <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+       <mass value="0.0515" />
+       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="033_spatula/google_16k/textured.obj" scale="1 1 1" />
+      </geometry>
+      <material name="texture">
+        <color rgba="1. 1. 1. 1." />
+      </material>
+    <origin rpy="0 0 0" xyz="-0.0011199571067565797 0.09109711217340037 -0.013914888956979942" /></visual>
+    <collision>
+      <geometry>
+        <mesh filename="033_spatula/google_16k/textured_vhacd.obj" scale="1 1 1" />
+      </geometry>
+    <origin rpy="0 0 0" xyz="-0.0011199571067565797 0.09109711217340037 -0.013914888956979942" /></collision>
+  </link>
+</robot>

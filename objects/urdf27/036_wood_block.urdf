@@ -1,0 +1,30 @@
+<robot name="036_wood_block.urdf">
+  <link name="baseLink">
+    <contact>
+      <friction_anchor />
+      <lateral_friction value="0.8" />
+      <rolling_friction value="0.001" />
+      <spinning_friction value="0.001" />
+      <contact_cfm value="0.0" />
+      <contact_erp value="1.0" />
+    </contact>
+    <inertial>
+       <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+       <mass value="0.729" />
+       <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="036_wood_block/google_16k/textured.obj" scale="1 1 1" />
+      </geometry>
+      <material name="texture">
+        <color rgba="1. 1. 1. 1." />
+      </material>
+    <origin rpy="0 0 0" xyz="-0.02353174455542233 0.010122348750720047 -0.10292931583326535" /></visual>
+    <collision>
+      <geometry>
+        <mesh filename="036_wood_block/google_16k/textured_vhacd.obj" scale="1 1 1" />
+      </geometry>
+    <origin rpy="0 0 0" xyz="-0.02353174455542233 0.010122348750720047 -0.10292931583326535" /></collision>
+  </link>
+</robot>
