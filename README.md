@@ -39,6 +39,17 @@ pip install trimesh
 cd chamfer3D
 python setup.py install
 ```
+5\)Create files
+Please creates folders as follows.
+```
+Smart-Explorer
+├── dataset
+│   ├── ints_img
+│   ├── label_img
+│   ├── rgb_img
+├── weights
+├── ......
+```
 
 ## Prepare Data
 Prepare your own 3D model files (urdf format)
