@@ -66,7 +66,10 @@ git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
 python setup.py build_ext install
 pip install git+git://github.com/waspinator/coco.git@2.1.0
+pip install git+git://github.com/waspinator/pycococreator.git@0.2.0
 ```
+As for `pycococreator`, you may need swtich to root folder and then `pip install .`
+
 Put `create_json.py` to `./cocoapi/PythonAPI`
 
 Put `name_list_train.txt` and `name_list_val.txt` to `./cocoapi/PythonAPI`
